@@ -43,3 +43,5 @@ class OrderInputValidator:
     delivery_interval = _normalize_delivery_interval(payload.get("delivery_interval", "09:00-12:00"))
     items = _require_items(payload.get("items"))
     total_amount = _calculate_total(items)
+
+#Победа и только победа...
